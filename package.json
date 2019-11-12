@@ -1,8 +1,8 @@
 {
   "name": "adsalt",
   "productName": "adsalt",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "1.0.6",
+  "description": "ADFLOW helper",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -22,10 +22,6 @@
         ],
         "darwin": [
           "zip"
-        ],
-        "linux": [
-          "deb",
-          "rpm"
         ]
       },
       "electronPackagerConfig": {
@@ -37,16 +33,17 @@
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "",
-        "name": ""
+        "owner": "gandol2",
+        "name": "adsalt"
       },
       "windowsStoreConfig": {
-        "packageName": "",
+        "packageName": "com.adflow",
         "name": "adsalt"
       }
     }
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "electron-compile": "^6.4.4",
     "electron-squirrel-startup": "^1.0.0"
   },
