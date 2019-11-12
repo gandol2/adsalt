@@ -3,6 +3,10 @@
   "productName": "adsalt",
   "version": "1.0.6",
   "description": "ADFLOW helper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gandol2/adsalt.git"
+  },
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -45,7 +49,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "electron-compile": "^6.4.4",
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^1.5.0"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
